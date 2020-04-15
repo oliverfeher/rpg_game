@@ -23,8 +23,11 @@
       });
 
       document.addEventListener("keydown", (e)=> {
-           if (e.key === "ArrowUp") {
-            character.style.top = "75%"
-            setTimeout(()=>{character.style.top = "85%" }, 500);
-           }
+           if (e.keyCode == 32) {
+            character.style.bottom = "-550px"
+            setTimeout(()=>{character.style.bottom = "-600px"}, 600);
+            setTimeout(()=>{character.style.bottom = "-580px" }, 580);
+            setTimeout(()=>{character.style.bottom = "-560px" }, 560);
+           }  
       });
+

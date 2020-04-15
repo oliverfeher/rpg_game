@@ -2,9 +2,12 @@ body {
     position: relative;
     text-align: center;
     display: flex;
+
+    flex-direction: column;
     justify-content: center;
 }
 #game {
+    align-self: center;
     background-color: black;
     width: 700px;
     min-height: 700px;
@@ -14,5 +17,5 @@ body {
     position: relative;
     height: 100px;
     width: 80px;
-    top: 85%;
+    bottom: -600px;
 }
